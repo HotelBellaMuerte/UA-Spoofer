@@ -4,7 +4,7 @@ config.welcome = {
   timeout: 3000,
   get version () {return app.storage.read("version")},
   set version (val) {app.storage.write("version", val)},
-  page: "https://github.com/triceratops1/ua-change/"
+  page: "hhttps://github.com/HotelBellaMuerte/UA-Spoofer"
 };
 
 config.badge = {
@@ -111,14 +111,14 @@ var defaultUAObj = {
     netbsd: "Mozilla/5.0 (X11; U; NetBSD i386; en-GB; rv:25.6) Gecko/20150723 FGecko/20110622 SeaMonkey/2.4a1"
   },
   tor: {
-    windowsd: "Mozilla/5.0 (Windows NT 6.1; rv:45.0) Gecko/20100101 Firefox/45.0",
-    mac: "Mozilla/5.0 (Windows NT 6.1; rv:45.0) Gecko/20100101 Firefox/45.0",
-    linux: "Mozilla/5.0 (Windows NT 6.1; rv:45.0) Gecko/20100101 Firefox/45.0",     
+    windowsd: "Mozilla/5.0 (Windows NT 6.1; rv:45.0) Gecko/20100101 Firefox/60.0",
+    mac: "Mozilla/5.0 (Windows NT 6.1; rv:45.0) Gecko/20100101 Firefox/60.0",
+    linux: "Mozilla/5.0 (Windows NT 6.1; rv:45.0) Gecko/20100101 Firefox/60.0",     
     chromeOS: "",
     ibm: "",
-    freebsd: "Mozilla/5.0 (Windows NT 6.1; rv:45.0) Gecko/20100101 Firefox/45.0",
-    openbsd: "Mozilla/5.0 (Windows NT 6.1; rv:45.0) Gecko/20100101 Firefox/45.0",
-    netbsd: "Mozilla/5.0 (Windows NT 6.1; rv:45.0) Gecko/20100101 Firefox/45.0"
+    freebsd: "Mozilla/5.0 (Windows NT 6.1; rv:45.0) Gecko/20100101 Firefox/60.0",
+    openbsd: "Mozilla/5.0 (Windows NT 6.1; rv:45.0) Gecko/20100101 Firefox/60.0",
+    netbsd: "Mozilla/5.0 (Windows NT 6.1; rv:45.0) Gecko/20100101 Firefox/60.0"
   },
   edge: {
     windowsd: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.79 Safari/537.36 Edge/14.14393",
